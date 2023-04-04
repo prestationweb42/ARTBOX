@@ -3,7 +3,7 @@
     <nav>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="oeuvre.php">Oeuvre</a></li>
+            <li><a href="oeuvres.php">Oeuvre</a></li>
         </ul>
     </nav>
 </header>
