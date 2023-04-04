@@ -16,8 +16,9 @@
         <div id="liste-oeuvres">
             <!-- Galerie des oeuvres avec PHP -->
             <?php
-            // inclusion du tableau des oeuvres
+            // Import du tableau des oeuvres
             include_once('oeuvres.php');
+            // Affichage des oeuvres
             foreach ($oeuvres as $oeuvre) {
                 echo '<article class="oeuvre">';
                 echo '<a href=' . $oeuvre['lien'] . '>';
