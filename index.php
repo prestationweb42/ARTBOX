@@ -17,7 +17,7 @@
             <!-- Galerie des oeuvres avec PHP -->
             <?php
             // inclusion du tableau des oeuvres
-            include_once('oeuvre.php');
+            include_once('oeuvres.php');
             foreach ($oeuvres as $oeuvre) {
                 echo '<article class="oeuvre">';
                 echo '<a href=' . $oeuvre['lien'] . '>';

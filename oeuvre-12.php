@@ -17,7 +17,7 @@
             <!-- Détails des oeuvres avec PHP -->
             <?php
             // inclusion du tableau des oeuvres
-            include_once('oeuvre.php');
+            include_once('oeuvres.php');
             //
             echo '<div id="img-oeuvre">';
             echo "<img src=" . $oeuvre12['image'] . ">";
