@@ -18,8 +18,14 @@
             <?php
             // inclusion du tableau des oeuvres
             include_once('oeuvres.php');
-            //
+            // extraction de l'id de la page
             $id = $_GET["id"] - 1;
+            // sécurité si id supérieur au nombre de page
+            $longTab = count($oeuvres);
+            //
+            if ($id >= $longTab) {
+                header('Location: index.php');
+            }
             //
             echo '<div id="img-oeuvre">';
             echo "<img src=" . $oeuvres[$id]['image'] . ">";
