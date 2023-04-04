@@ -1,9 +1,9 @@
 <?php
 include_once 'components/header.php';
 $oeuvres = [
-    [
+    $oeuvre1 = [
         "id" => 1,
-        "lien" => "oeuvre.php?id=1",
+        "lien" => "oeuvre-1.php",
         "titre" => "Dodomu",
         "image" => "img/clark-van-der-beken.png",
         "description" => "Mia Tozerski",
@@ -14,9 +14,9 @@ $oeuvres = [
         marquera l'Histoire. Cette peinture à l'acrylique rayonne grâce à son fond lisse et ses mélanges de
         couleurs éclatantes."
     ],
-    [
+    $oeuvre2 = [
         "id" => 2,
-        "lien" => "oeuvre.php?id=2",
+        "lien" => "oeuvre-2.php",
         "titre" => "Aashaaheen Baadal",
         "image" => "img/pawel-czerwinski-3.png",
         "description" => "Anaisha Devi",
@@ -24,9 +24,9 @@ $oeuvres = [
                     dans un nuage noir envoûtant. Un sombre tableau qui, par son verni éclatant, rayonne tel un marbre
                     poli. Une oeuvre à la cohérence transcendantale, exécutée à la perfection."
     ],
-    [
+    $oeuvre3 = [
         "id" => 3,
-        "lien" => "oeuvre.php?id=3",
+        "lien" => "oeuvre-3.php",
         "titre" => "Nightlife Traffic",
         "image" => "img/dan-cristian-padure.png",
         "description" => "Andrew Forsythe",
@@ -36,9 +36,9 @@ $oeuvres = [
                     lacinia luctus. Suspendisse volutpat enim semper arcu rutrum, et iaculis risus interdum. Duis at
                     libero."
     ],
-    [
+    $oeuvre4 = [
         "id" => 4,
-        "lien" => "oeuvre.php?id=4",
+        "lien" => "oeuvre-4.php",
         "titre" => "Le refuge de l'Havre",
         "image" => "img/steve-johnson-5.png",
         "description" => "Simon Pelletier",
@@ -49,9 +49,9 @@ $oeuvres = [
                     sollicitudin. Etiam non aliquam diam, tempor varius sapien. Aenean et velit eu nisi lobortis massa
                     nunc."
     ],
-    [
+    $oeuvre5 = [
         "id" => 5,
-        "lien" => "oeuvre.php?id=5",
+        "lien" => "oeuvre-5.php",
         "titre" => "Red Washover",
         "image" => "img/steve-johnson.png",
         "description" => "Kit Van Der Borght",
@@ -61,18 +61,18 @@ $oeuvres = [
                     vehicula nisl in tempus. Morbi tempus aliquet gravida. In eget est congue, rhoncus sapien at, cursus
                     metus."
     ],
-    [
+    $oeuvre6 = [
         "id" => 6,
-        "lien" => "oeuvre.php?id=6",
+        "lien" => "oeuvre-6.php",
         "titre" => "Chromatics",
         "image" => "img/pawel-czerwinski.png",
         "description" => "Jean-Michel Delatronchette",
         "texte" => "Vivamus commodo non libero at hendrerit. In lacinia dui sit amet pellentesque iaculis. Donec at
                     ultricies sem porttitor."
     ],
-    [
+    $oeuvre7 = [
         "id" => 7,
-        "lien" => "oeuvre.php?id=7",
+        "lien" => "oeuvre-7.php",
         "titre" => "Digital Negative",
         "image" => "img/jazmin-quaynor.png",
         "description" => "Hamish McKee",
@@ -81,9 +81,9 @@ $oeuvres = [
                     consectetur dapibus, est libero iaculis lacus, eget semper turpis orci vitae felis. Fusce eget
                     molestie."
     ],
-    [
+    $oeuvre8 = [
         "id" => 8,
-        "lien" => "oeuvre.php?id=8",
+        "lien" => "oeuvre-8.php",
         "titre" => "Blast from the past",
         "image" => "img/steve-johnson-6.png",
         "description" => "Juliette Baskerville",
@@ -91,9 +91,9 @@ $oeuvres = [
                     sem. Donec quis scelerisque massa. Fusce quis accumsan diam, et interdum lectus. Suspendisse mattis
                     pulvinar vehicula. Duis nisi."
     ],
-    [
+    $oeuvre9 = [
         "id" => 9,
-        "lien" => "oeuvre.php?id=9",
+        "lien" => "oeuvre-9.php",
         "titre" => "Hurricane",
         "image" => "img/victor-grabarczyk.png",
         "description" => "Natalie Wellington",
@@ -103,9 +103,9 @@ $oeuvres = [
                     efficitur, nisl quis finibus faucibus, lacus felis bibendum leo, eu euismod lacus mauris in felis.
                     Quisque dignissim et dui et aliquet. Donec ut lobortis eros, vitae tincidunt augue metus."
     ],
-    [
+    $oeuvre10 = [
         "id" => 10,
-        "lien" => "oeuvre.php?id=10",
+        "lien" => "oeuvre-10.php",
         "titre" => "La marée rouge",
         "image" => "img/pawel-czerwinski-2.png",
         "description" => "Martin Rodriguez",
@@ -113,9 +113,9 @@ $oeuvres = [
                     bibendum sit amet. Morbi tincidunt nec tellus vel ornare. Mauris dolor tellus, gravida eget euismod
                     eu, viverra eget urna. Phasellus feugiat ipsum nec lorem accumsan, sed porta quam dictum massa nunc."
     ],
-    [
+    $oeuvre11 = [
         "id" => 11,
-        "lien" => "oeuvre.php?id=11",
+        "lien" => "oeuvre-11.php",
         "titre" => "Asimilacion",
         "image" => "img/steve-johnson-2.png",
         "description" => "Angel Sanchez-Fernandez",
@@ -125,9 +125,9 @@ $oeuvres = [
                     vestibulum mi ex, vel ultricies purus mollis sollicitudin. Aenean ac vehicula ipsum. Nam turpis
                     ante, ultrices eget odio sed, luctus bibendum mauris sodales sed."
     ],
-    [
+    $oeuvre12 = [
         "id" => 12,
-        "lien" => "oeuvre.php?id=12",
+        "lien" => "oeuvre-12.php",
         "titre" => "La Galaxia Gialla",
         "image" => "img/fly-d.png",
         "description" => "Eduardo Tancredi",
@@ -136,18 +136,18 @@ $oeuvres = [
                     egestas, eget finibus ante porttitor. Sed malesuada sapien ut semper accumsan. Duis tristique dui
                     vel egestas porttitor. Nunc tristique dapibus orci a amet."
     ],
-    [
+    $oeuvre13 = [
         "id" => 13,
-        "lien" => "oeuvre.php?id=13",
+        "lien" => "oeuvre-13.php",
         "titre" => "Puffy Amalgamate",
         "image" => "img/orfeas-green.png",
         "description" => "Sandro De Blasi",
         "texte" => "Donec semper a massa quis congue. In malesuada lorem ligula, ut posuere magna pulvinar in. Proin
                     vitae enim gravida, commodo odio."
     ],
-    [
+    $oeuvre14 = [
         "id" => 14,
-        "lien" => "oeuvre.php?id=14",
+        "lien" => "oeuvre-14.php",
         "titre" => "Mirage",
         "image" => "img/steve-johnson-4.png",
         "description" => "Stéphanie Kaiser",
@@ -157,9 +157,9 @@ $oeuvres = [
                     fermentum mollis mauris sed, consectetur interdum libero. Duis interdum tortor tellus, eget
                     sollicitudin quis."
     ],
-    [
+    $oeuvre15 = [
         "id" => 15,
-        "lien" => "oeuvre.php?id=15",
+        "lien" => "oeuvre-15.php",
         "titre" => "Blaue Gelbe Muster",
         "image" => "img/steve-johnson-3.png",
         "description" => "Adelheid Von Schreiber",
