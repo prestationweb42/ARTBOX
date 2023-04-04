@@ -16,17 +16,16 @@
         <article id="detail-oeuvre">
             <!-- Détails des oeuvres avec PHP -->
             <?php
-            // inclusion du tableau des oeuvres
+            // Inclusion du tableau des oeuvres
             include_once('oeuvres.php');
-            // extraction de l'id de la page
+            // Extraction de l'id de la page
             $id = $_GET["id"] - 1;
-            // sécurité si id supérieur au nombre de page
+            // Sécurité si id supérieur au nombre de page
             $longTab = count($oeuvres);
-            //
             if ($id >= $longTab) {
                 header('Location: index.php');
             }
-            //
+            // Affichage des infos du tableau
             echo '<div id="img-oeuvre">';
             echo "<img src=" . $oeuvres[$id]['image'] . ">";
             echo '</div>';
