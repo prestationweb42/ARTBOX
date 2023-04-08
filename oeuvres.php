@@ -2,7 +2,6 @@
 $oeuvres = [
     [
         "id" => 1,
-        "lien" => "oeuvre.php?id=1",
         "titre" => "Dodomu",
         "image" => "img/clark-van-der-beken.png",
         "description" => "Mia Tozerski",
@@ -15,7 +14,6 @@ $oeuvres = [
     ],
     [
         "id" => 2,
-        "lien" => "oeuvre.php?id=2",
         "titre" => "Aashaaheen Baadal",
         "image" => "img/pawel-czerwinski-3.png",
         "description" => "Anaisha Devi",
@@ -25,7 +23,6 @@ $oeuvres = [
     ],
     [
         "id" => 3,
-        "lien" => "oeuvre.php?id=3",
         "titre" => "Nightlife Traffic",
         "image" => "img/dan-cristian-padure.png",
         "description" => "Andrew Forsythe",
@@ -37,7 +34,6 @@ $oeuvres = [
     ],
     [
         "id" => 4,
-        "lien" => "oeuvre.php?id=4",
         "titre" => "Le refuge de l'Havre",
         "image" => "img/steve-johnson-5.png",
         "description" => "Simon Pelletier",
@@ -50,7 +46,6 @@ $oeuvres = [
     ],
     [
         "id" => 5,
-        "lien" => "oeuvre.php?id=5",
         "titre" => "Red Washover",
         "image" => "img/steve-johnson.png",
         "description" => "Kit Van Der Borght",
@@ -62,7 +57,6 @@ $oeuvres = [
     ],
     [
         "id" => 6,
-        "lien" => "oeuvre.php?id=6",
         "titre" => "Chromatics",
         "image" => "img/pawel-czerwinski.png",
         "description" => "Jean-Michel Delatronchette",
@@ -71,7 +65,6 @@ $oeuvres = [
     ],
     [
         "id" => 7,
-        "lien" => "oeuvre.php?id=7",
         "titre" => "Digital Negative",
         "image" => "img/jazmin-quaynor.png",
         "description" => "Hamish McKee",
@@ -82,7 +75,7 @@ $oeuvres = [
     ],
     [
         "id" => 8,
-        "lien" => "oeuvre.php?id=8",
+
         "titre" => "Blast from the past",
         "image" => "img/steve-johnson-6.png",
         "description" => "Juliette Baskerville",
@@ -92,7 +85,6 @@ $oeuvres = [
     ],
     [
         "id" => 9,
-        "lien" => "oeuvre.php?id=9",
         "titre" => "Hurricane",
         "image" => "img/victor-grabarczyk.png",
         "description" => "Natalie Wellington",
@@ -104,7 +96,6 @@ $oeuvres = [
     ],
     [
         "id" => 10,
-        "lien" => "oeuvre.php?id=10",
         "titre" => "La marée rouge",
         "image" => "img/pawel-czerwinski-2.png",
         "description" => "Martin Rodriguez",
@@ -114,7 +105,6 @@ $oeuvres = [
     ],
     [
         "id" => 11,
-        "lien" => "oeuvre.php?id=11",
         "titre" => "Asimilacion",
         "image" => "img/steve-johnson-2.png",
         "description" => "Angel Sanchez-Fernandez",
@@ -126,7 +116,6 @@ $oeuvres = [
     ],
     [
         "id" => 12,
-        "lien" => "oeuvre.php?id=12",
         "titre" => "La Galaxia Gialla",
         "image" => "img/fly-d.png",
         "description" => "Eduardo Tancredi",
@@ -137,7 +126,6 @@ $oeuvres = [
     ],
     [
         "id" => 13,
-        "lien" => "oeuvre.php?id=13",
         "titre" => "Puffy Amalgamate",
         "image" => "img/orfeas-green.png",
         "description" => "Sandro De Blasi",
@@ -146,7 +134,6 @@ $oeuvres = [
     ],
     [
         "id" => 14,
-        "lien" => "oeuvre.php?id=14",
         "titre" => "Mirage",
         "image" => "img/steve-johnson-4.png",
         "description" => "Stéphanie Kaiser",
@@ -158,7 +145,6 @@ $oeuvres = [
     ],
     [
         "id" => 15,
-        "lien" => "oeuvre.php?id=15",
         "titre" => "Blaue Gelbe Muster",
         "image" => "img/steve-johnson-3.png",
         "description" => "Adelheid Von Schreiber",

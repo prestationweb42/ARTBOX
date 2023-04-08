@@ -21,7 +21,7 @@
             // Affichage des oeuvres
             foreach ($oeuvres as $oeuvre) {
                 echo '<article class="oeuvre">';
-                echo '<a href=' . $oeuvre['lien'] . '>';
+                echo '<a href=oeuvre.php?id=' . $oeuvre['id'] . '>';
                 echo "<img src=" . $oeuvre['image'] . ">";
                 echo "<h2>" . $oeuvre['titre'] . "</h2>";
                 echo "<p class='description'>" . $oeuvre['description'] . "</p>";
